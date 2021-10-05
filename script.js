@@ -14,6 +14,6 @@ const generateMessage = () => {
     
     let phrase = `Mood of the day: ${emoji}. What about ${activity} while listening to ${band} to make your day better?`;
     return phrase;
-}
+};
 
-console.log(generateMessage())
+console.log(generateMessage());
